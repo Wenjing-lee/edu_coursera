@@ -34,7 +34,8 @@ st.title("🎓 Coursera Course Recommender")
 courses = load_courses()
 titles = [course["title"] for course in courses]
 
-tab1, tab2 = st.tabs(["🔍 Filter Courses", "Recommend Similar"])
+
+tab1, tab2 = st.tabs(["🔍 Filter Courses", "🎯 Recommend Similar"])
 
 # TAB 1: Filtering
 with tab1:
